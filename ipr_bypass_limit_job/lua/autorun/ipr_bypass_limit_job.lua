@@ -137,15 +137,12 @@ else
                         if (t.name ~= ipr_t) then
                             continue
                         end
-                        if (t.max == 0) then
-                            ipr_cache(s, id, f, v, g)
-                            break
-                        end
                         local tbl_cache = t.max
                         t.max = (ipr_f == 0) and 0 or t.max + ipr_f
 
                         ipr_cache(s, id, f, v, g)
                         t.max = tbl_cache
+                        break                        
                     end
                     return
                 end
