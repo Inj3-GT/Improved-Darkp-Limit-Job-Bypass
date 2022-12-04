@@ -1,4 +1,3 @@
----- // Bypass Job limit DarkRP v2.0
 ----------- // SCRIPT BY INJ3
 ----------- // SCRIPT BY INJ3
 ----------- // SCRIPT BY INJ3
