@@ -152,5 +152,5 @@ else
     util.AddNetworkString("ipr_update_job_ov")
     hook.Add("InitPostEntity", "ipr_override_darkrp_job", ipr_init_func)
 
-    print("Bypass Job limit DarkRP v2.0 by Inj3 loaded !")
+    print("Bypass Job limit DarkRP v2.1 by Inj3 loaded !")
 end
