@@ -77,8 +77,7 @@ if (CLIENT) then
 
     net.Receive("ipr_update_job_ov", ipr_init_func)
     hook.Add("InitPostEntity", "ipr_override_darkrp_job", ipr_init_func)
-else
-    
+else   
     local function ipr_check(j, n, g)
         for t, f in pairs(j) do
             if (t ~= n) then
