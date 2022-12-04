@@ -124,7 +124,6 @@ else
             if not ipr_meta_n[n] then
                continue
             end
-
             local ipr_cache = ipr_meta[n]
             ipr_meta[n] = function(s, id, f, v, g)
                 local ipr_t, ipr_grp = team.GetName(id), s:GetUserGroup()
