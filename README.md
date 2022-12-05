@@ -1,8 +1,11 @@
 # Improved-DarkRP-Limit-Job-Bypass
 Bypass the darkrp job access limit
 
+- Works on all DarkRP (if you have a bug, report it in the issues category).
+
 - Add your VIP groups or other specific groups that will have unlimited access, or a configured limit to access your jobs if the limit is reached (that the job is complete) in your DarkRP game mode.
 
+- Configure your jobs and groups easily.
 - In the configuration, limit_reached to '0' if you want an unlimited number of slots available for your groups.
 - Include a number greater than '0' if you want to define a specific number of slots for your groups.
 
